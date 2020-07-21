@@ -233,16 +233,16 @@ a {
 }
 /* 메인 콘텐츠 */
 .main {
-  background-color: blue;
+  background-color: #fff;
   min-height: 450px;
   padding: 30px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: flex-start;
+  border-radius: 15px;
 }
 .group1 {
-  background-color: pink;
   width: 250px;
 }
 .group2 {
@@ -363,6 +363,53 @@ a {
 }
 .validation-list a:hover {
   color: #f00;
+}
+
+/* 웹관련용어 */
+.term {
+  margin-top: 20px;
+  padding: 10px 15px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #ccc, #eee), #ccc;
+}
+.term-heading {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.term-list {
+  margin: 0;
+}
+.term-list dd {
+  margin-left: 0;
+}
+.term-list > div {
+  margin-top: 10px;
+}
+.term-list-subject, .term-list-brief {
+  float: right;
+  width: 145px;
+  margin-bottom: 5px;
+}
+.term-list-subject {
+  margin-bottom: 5px;
+  color: #296897;
+}
+.term-list-thumbnail {
+  float: left;
+  background-color: red;
+}
+.term-list-thumbnail img {
+  vertical-align: top;
+}
+
+.even .term-list-subject, .even  .term-list-brief {
+  float: left;
+}
+.even .term-list-thumbnail {
+  float:right;
 }
 /* 슬로건 */
 .slogan {
