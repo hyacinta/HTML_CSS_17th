@@ -432,8 +432,11 @@ a {
   align-items: center;
   justify-content: space-between;
 }
+.search-form label, .search-form .btn-search {
+  white-space: nowrap;
+}
 .search-form input[type="search"] {
-  flex-grow: 1;
+  width: 200px;
   height: 24px;
   margin: 0 5px;
   padding: 1px 1px 1px 5px;
