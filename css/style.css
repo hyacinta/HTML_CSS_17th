@@ -613,32 +613,6 @@ a {
   font-style: normal;
 }
 
-/* 
-.btn-wrap {
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 18px;
-  text-align: right;
-  background-color: red;
-}
-.btn-wrap button {
-  width:19px;
-  height: 100%;
-  padding: 0;
-  padding-top: 18px;
-  overflow: hidden;
-  border: none;
-  background-image: url("../css/images/back_forward.png");
-  background-repeat: no-repeat;
-  cursor: pointer;
-}
-.btn-prev {
-  background-position: left center;
-}
-.btn-next {
-  background-position: right center;
-} */
 .btn-wrap {
   position: absolute;
   top: 0;
@@ -657,21 +631,31 @@ a {
 .btn-next {
   background-position: right center;
 }
+.related {
+  margin-top: 10px;
+}
 .related-list {
-  height: 25px;
+  height: 27px;
+  margin:10px 0 0 0; 
   padding-left: 0;
   list-style: none;
   border: 1px solid #aaa;
   background-color: #fff;
-  border-radius: 4px;
+  border-radius: 5px;
   overflow: hidden;
-}
-.related-list a {
-  display: inline-block;
-  padding: 3px 5px;
+  transition: all 200ms ease;
 }
 .related-list:hover {
-  height: auto;
+  height: 147px;
+  padding: 10px 0;
+}
+.related-list li {
+  padding: 2px;
+}
+.related-list a {
+  display: block;
+  line-height: 21px;
+  text-indent: 1em;
 }
 /* 슬로건 */
 .slogan {
