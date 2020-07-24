@@ -581,7 +581,95 @@ a {
   top: 0;
   right: 0;
 }
+/* 신규이벤트 관련사이트 */
+.gradient-box {
+  padding: 15px 10px;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  background-image: linear-gradient(180deg, #ccc, #eee);
+  background-color: #ccc;
+}
+.event {
+  position: relative;
+  border-bottom: 1px solid #aaa;
+}
+.event-heading, .related-heading {
+  margin: 0;
+  font-size: 1.6rem;
+}
+.event-heading span, .related-heading span {
+  color: #db5629;
+}
+.event-thumbnail, .event-brief {
+  margin: 10px 0;
+}
+.event-thumbnail img {
+  border: 1px solid #aaa;
+  box-shadow: 5px 5px 0 0 #999;
+}
+.event-brief em {
+  font-style: normal;
+}
 
+/* 
+.btn-wrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 18px;
+  text-align: right;
+  background-color: red;
+}
+.btn-wrap button {
+  width:19px;
+  height: 100%;
+  padding: 0;
+  padding-top: 18px;
+  overflow: hidden;
+  border: none;
+  background-image: url("../css/images/back_forward.png");
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.btn-prev {
+  background-position: left center;
+}
+.btn-next {
+  background-position: right center;
+} */
+.btn-wrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.btn-prev, .btn-next {
+  background-image: url("./images/back_forward.png");
+  background-repeat: no-repeat;
+  width: 19px;
+  height: 18px;
+  border:none;
+  padding: 0;
+  cursor: pointer;
+}
+.btn-next {
+  background-position: right center;
+}
+.related-list {
+  height: 25px;
+  padding-left: 0;
+  list-style: none;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.related-list a {
+  display: inline-block;
+  padding: 3px 5px;
+}
+.related-list:hover {
+  height: auto;
+}
 /* 슬로건 */
 .slogan {
   background-color: orange;
