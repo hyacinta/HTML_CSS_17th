@@ -778,12 +778,57 @@ a {
   content: "";
 }
 .footer-bg {
-  background-color: purple;
   width: 100%;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: #ccc linear-gradient(180deg, #ccc, #eee);
 }
 .footer {
-  background-color: skyblue;
+  position: relative;
+  padding-left: 170px;
+  padding-right: 100px;
+}
+.footer-logo {
+  position: absolute;
+  top: 35px;
+  left: 35px;
+}
+.guide-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 4px 20px;
+  list-style: none;
+  color: #fff;
+  background-color: #7b8385;
+  border-radius: 10px;
+}
+.guide-list li {
+  text-align: center;
+}
+.guide-list a {
+  display: block;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.address {
+  font-style: normal;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.address span {
+  margin-right: 10px;
+}
+.copyright {
+  display: block;
+  font-size: 1.4rem;
+}
+
+.badge {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
