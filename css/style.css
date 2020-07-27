@@ -768,10 +768,10 @@ a {
   font-weight: 700;
 }
 .slogan-brief q::before {
-  /* vertical-align: baseline; */
+  vertical-align: middle;
   font-size: 3rem;
-  position: relative;
-  top: 10px;
+  /* position: relative;
+  top: 10px; */
   margin-right: 5px;
 }
 .slogan-brief q::after {
